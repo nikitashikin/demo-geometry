@@ -2,6 +2,7 @@ public class BoxDemo {
     public static void main(String[] args) {
         Box myBox1 = new Box();
         Box myBox2 = new Box();
+        double vol;
 
         myBox1.width = 10;
         myBox1.height = 20;
@@ -12,9 +13,10 @@ public class BoxDemo {
         myBox2.depth = 9;
 
 
-        myBox1.volume();
+        vol= myBox1.volume();
+        System.out.println("Obyem raven " + vol);
 
-        myBox2.volume();
-
+        vol= myBox2.volume();
+        System.out.println("Obyem raven " + vol);
     }
 }

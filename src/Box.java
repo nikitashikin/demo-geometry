@@ -4,8 +4,7 @@ public class Box {
     double height;
     double depth;
 
-    void volume(){
-        System.out.println("Obyem raven ");
-        System.out.println((width*height*depth));
+   double volume(){
+       return width*height*depth;
     }
 }
