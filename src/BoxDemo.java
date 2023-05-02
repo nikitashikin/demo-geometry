@@ -8,6 +8,6 @@ public class BoxDemo {
         myBox.depth = 15;
 
         vol = myBox.width * myBox.height * myBox.depth;
-        System.out.println("Obyem raven " + vol);
+        System.out.println("Ob'em raven " + vol);
     }
 }
